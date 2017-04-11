@@ -6,7 +6,6 @@
 # and incorporating work from kubernetes
 
 FROM centos:centos7
-MAINTAINER The CentOS Project <cloud-ops@centos.org>
 
 LABEL io.k8s.description="Redis is an open source, in-memory data structure store, used as database, cache and message broker." \
       io.k8s.display-name="Redis 2.8.19-2.el7" \
